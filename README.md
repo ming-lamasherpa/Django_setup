@@ -48,3 +48,9 @@ For more information on production servers see: https://docs.djangoproject.com/e
 [11/Jul/2025 08:39:56] "GET / HTTP/1.1" 200 12068
 Not Found: /favicon.ico
 [11/Jul/2025 08:39:56] "GET /favicon.ico HTTP/1.1" 404 2220
+
+now to check admin:
+http://127.0.0.1:8000/admin/login/?next=/admin/
+
+<img width="523" height="427" alt="image" src="https://github.com/user-attachments/assets/18c7297e-6c3e-4fad-b0e6-df3420de95cf" />
+
