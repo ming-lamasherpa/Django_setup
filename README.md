@@ -58,3 +58,12 @@ http://127.0.0.1:8000/admin/login/?next=/admin/
 make notes for app
 python manage.py startapp notes
 
+admin panel
+<img width="657" height="574" alt="image" src="https://github.com/user-attachments/assets/59603222-33ea-4203-8ba6-b1f6de50a3ce" />
+-> python manage.py createsuperuser
+user-mingmasherpa
+pass-text@123
+
+<img width="1920" height="472" alt="image" src="https://github.com/user-attachments/assets/6621aa3e-c3f5-4f1a-95e6-90d41b464f3f" />
+
+
