@@ -1,7 +1,19 @@
-# Django_setup
+
+# 🐍 Django Project Setup Guide
+
+This README documents the step-by-step setup for a Django project along with creating a custom app and configuring the admin panel.
+
+---
+
+## ✅ 1. Create a Virtual Environment
+```bash
+python -m venv python
+
 D:\Django>python -m venv python
 
-D:\Django>python\Scripts\activate
+2. Activate the Virtual Environment <br>
+
+=> D:\Django>python\Scripts\activate
 
 (python) D:\Django>pip install Django
 Collecting Django
@@ -21,7 +33,7 @@ Installing collected packages: tzdata, sqlparse, asgiref, Django
 Successfully installed Django-5.2.4 asgiref-3.9.1 sqlparse-0.5.3 tzdata-2025.2
 
 [notice] A new release of pip is available: 25.0.1 -> 25.1.1
-[notice] To update, run: python.exe -m pip install --upgrade pip
+[notice] To update, run: python.exe -m pip install --upgrade pip <br>
 
 (python) D:\Django>django-admin --version
 5.2.4
