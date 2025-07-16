@@ -54,3 +54,7 @@ http://127.0.0.1:8000/admin/login/?next=/admin/
 
 <img width="523" height="427" alt="image" src="https://github.com/user-attachments/assets/18c7297e-6c3e-4fad-b0e6-df3420de95cf" />
 
+
+make notes for app
+python manage.py startapp notes
+
