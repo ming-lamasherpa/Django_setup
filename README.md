@@ -122,3 +122,23 @@ In [9]: first_note.save()
 
 In [10]: first_note
 Out[10]: <Note: Note object (1)>
+
+(python) D:\Django\python\myPortfolio>python manage.py shell
+7 objects imported automatically (use -v 2 for details).
+Or,
+
+C:\Users\mingm\AppData\Local\Programs\Python\Python313\Lib\site-packages\IPython\core\interactiveshell.py:958: UserWarning: Attempting to work in a virtualenv. If you encounter problems, please install IPython inside the virtualenv.
+  warn(
+Python 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 9.2.0 -- An enhanced Interactive Python. Type '?' for help.
+Tip: You can use `files = !ls *.png`
+
+In [1]: from notes.models import Note
+
+In [2]: notes = Note.objects.all()
+
+In [3]: notes
+Out[3]: <QuerySet [<Note: DAta structure and algorithms>]>
+
+In [4]:
