@@ -79,4 +79,46 @@ pass-text@123
 <img width="1920" height="472" alt="image" src="https://github.com/user-attachments/assets/6621aa3e-c3f5-4f1a-95e6-90d41b464f3f" />
 
 <img width="697" height="254" alt="image" src="https://github.com/user-attachments/assets/110a9dca-2c9b-42fa-afbb-c998a7ad6116" />
+(python) D:\Django>cd python
 
+(python) D:\Django\python>cd myportfolio
+
+(python) D:\Django\python\myPortfolio>python manage.py shell
+7 objects imported automatically (use -v 2 for details).
+
+C:\Users\mingm\AppData\Local\Programs\Python\Python313\Lib\site-packages\IPython\core\interactiveshell.py:958: UserWarning: Attempting to work in a virtualenv. If you encounter problems, please install IPython inside the virtualenv.
+  warn(
+Python 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 9.2.0 -- An enhanced Interactive Python. Type '?' for help.
+Tip: Run your doctests from within IPython for development and debugging. The special %doctest_mode command toggles a mode where the prompt, output and exceptions display matches as closely as possible that of the default Python interpreter.
+
+
+Notes ma field in admin :
+
+In [1]: from notes.models import Note
+
+In [2]: first_note = Note()
+
+In [3]: first_note
+Out[3]: <Note: Note object (None)>
+
+In [4]: first_note.title = "DAta structure and algorithms"
+
+In [5]: first_note.content = "This covers all syllabus of Dsa for both CSIT and engineering colleges in Nepal.This is the content of DSA".
+  Cell In[5], line 1
+    first_note.content = "This covers all syllabus of Dsa for both CSIT and engineering colleges in Nepal.This is the content of DSA".
+                                                                                                                                      ^
+SyntaxError: invalid syntax
+
+In [6]: first_note.content = "This covers all syllabus of Dsa for both CSIT and engineering colleges in Nepal.This is the content of DSA"
+
+In [7]: first_note.slug = "dsa-note"
+
+In [8]: first_note
+Out[8]: <Note: Note object (None)>
+
+In [9]: first_note.save()
+
+In [10]: first_note
+Out[10]: <Note: Note object (1)>
